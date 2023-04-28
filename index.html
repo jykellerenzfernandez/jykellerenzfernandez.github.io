@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Mini-Project 1</title>
+    <link href="./css-index/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css-index/splide.min.css">
+    <link href="./css-index/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="primary-navbar" class="primary-nav navbar navbar-expand-lg navbar-light bg-white fixed-top font-nunito">
+      <div class="container px-4 px-sm-0">
+        <a class="navbar-brand" href="#"><img src="./images-index/logo-2.png"></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Seek Help
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://twitter.com/kapwamh">Kapwa MH</a></li>
+                    <li><a class="dropdown-item" href="https://www.facebook.com/LunasCollective/">Lunas Collective</a></li>
+                    <li><a class="dropdown-item" href="https://www.in-touch.org/join-crisis-line.html">ITCSCL</a></li>
+                    <li><a class="dropdown-item" href="https://www.facebook.com/PMHAofficial">PMHA</a></li>
+                    <li><a class="dropdown-item" href="https://www.facebook.com/The700ClubAsia/">700 Club Asia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+            </ul>
+          </div>
+          <button id="open-sidenav" class="open-sidenav bg-transparent border-0 ms-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2c333a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+    </nav> 
+    <!-- Off Canvas Menu Start -->
+    <div id="sidenav-wrap">
+      <span class="sidenav-backdrop"></span>
+      <div id="sidenav" class="sidenav font-nunito bg-dark px-4">
+        <a href="#" id="close-sidenav" class="close-sidenav text-decoration-none text-white">&times;</a>
+        <div class="sidenav-logo mt-5 pt-5">
+          <a class="" href="#"><img src="./images-index/logo-2.png"></a>
+        </div>
+        <div class="sidenav-menu mt-5">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link px-0 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0" href="#">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0" href="#">Videos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Seek Help</a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item" href="https://twitter.com/kapwamh">Kapwa MH</a></li>
+                <li><a class="dropdown-item" href="https://www.facebook.com/LunasCollective">Lunas Collective</a></li>
+                <li><a class="dropdown-item" href="https://www.in-touch.org/join-crisis-line.html">ITCSCL</a></li>
+                <li><a class="dropdown-item" href="https://www.facebook.com/PMHAofficial">PMHA</a></li>
+                <li><a class="dropdown-item" href="https://www.facebook.com/The700ClubAsia/">700 Club Asia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0" href="#">Shop</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidenav-social mt-5">
+          <ul class="list-unstyled">
+            <li class="inline-block me-2"><a href="#" class="text-white"><img src="./images-index/twitter.svg"></a></li>
+            <li class="inline-block me-2"><a href="#" class="text-white"><img src="./images-index/instagram.svg"></a></li>
+            <li class="inline-block me-2"><a href="#" class="text-white"><img src="./images-index/linkedin.svg"></a></li>
+            <li class="inline-block me-2"><a href="#" class="text-white"><img src="./images-index/youtube.svg"></a></li>
+            <li class="inline-block me-2"><a href="#" class="text-white"><img src="./images-index/dribbble.svg"></a></li>
+            <li class="inline-block"><a href="#" class="text-white"><img src="./images-index/github.svg"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Off Canvas Menu End -->
+    <!-- Hero Section Start -->
+    <section class="hero bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 col-lg-6 order-2 order-lg-1  mt-4 mt-lg-0 pt-4 pt-lg-0 ">
+            <div class="hero-content pe-md-0 pe-lg-5">
+              <span class="pre-title text-dark small fw-bold inline-block position-relative text-uppercase">Hi, I'm Jake</span>
+              <h1 class="hero-title text-dark mt-3">What Food <br class="d-none d-lg-block">is your favorite to eat...</h1>
+              <p class="hero-text mt-3 mb-0">This is a dish Mama used to make when I was a kid and she didn't want to make something complicated. Became a true comfort food to me. Over so many years later and I still make this dish.</p>
+              <a href="#" class="btn btn-danger shadow-sm mt-4 fw-bold">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6 order-1 order-lg-2">
+            <div class="hero-image wings position-relative mx-3 mx-md-4 ms-lg-5">
+              <img class="rounded img-fluid w-100 position-relative" src="./images-index/biko.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Portfolio Section Start -->
+    <section class="portfolio bg-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="section-head text-center mx-auto narrow">
+              <span class="pre-title small position-relative fw-bold text-dark text-uppercase">KAKANIN</span>
+              <h2 class="section-title text-dark mt-3">What is your ultimate comfort food, and why?</h2>
+              <p class="section-subtitle mt-3 mb-0">Almost all kinds of kakanin has its own unique and quirky name. As you’ll see in the following examples, each carries with it a history that’s as rich and deeply-rooted in our culture as the delicacy it identifies. </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+              <div class="portfolio-item position-relative overflow-hidden">
+                <img class="portfolio-item-img img-fluid w-100" src="./images-index/puto-balanghoy.jpg">
+                <div class="portfolio-item-content position-absolute rounded text-center">
+                  <div class="position-absolute top-50 start-50 translate-middle">
+                    <h3 class="project-title text-white">Puto</h3>
+                    <span class="project-type text-uppercase text-white small">Balanghoy</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/bibingka.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Bibingka</h3>
+                  <span class="project-type text-uppercase text-white small"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/palitaw.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Palitaw</h3>
+                  <span class="project-type text-uppercase text-white small"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/nilupak-kamoteng-kahoy.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Nilupak</h3>
+                  <span class="project-type text-uppercase text-white small">Kamoteng Kahoy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/sapin-sapin.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Sapin-sapin</h3>
+                  <span class="project-type text-uppercase text-white small"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/kutsinta.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Kutsinta</h3>
+                  <span class="project-type text-uppercase text-white small"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/suman.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Suman</h3>
+                  <span class="project-type text-uppercase text-white small"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item Start -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 px-0">
+            <div class="portfolio-item position-relative overflow-hidden">
+              <img class="portfolio-item-img img-fluid w-100" src="./images-index/maja-blanca.jpg">
+              <div class="portfolio-item-content position-absolute rounded text-center">
+                <div class="position-absolute top-50 start-50 translate-middle">
+                  <h3 class="project-title text-white">Maja</h3>
+                  <span class="project-type text-uppercase text-white small">Blanca</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Item End -->
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+    <!-- Footer Start -->
+    <footer class="footer bg-dark text-muted pt-0 pt-lg-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="footer-col mt-5 pe-4">
+              <img src="./images-index/logo.png" class="footer-logo mb-4">
+              <p class="mb-0">We produce cooking content. Discover food you'll love. </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-col mt-5">
+              <h3 class="footer-title text-white mb-4">Blog</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#">Travel</a></li>
+                <li class="mb-2"><a href="#">Fitness</a></li>
+                <li class="mb-2"><a href="#">Activities</a></li>
+                <li class="mb-0"><a href="#">Wellness</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="footer-col mt-5">
+              <h3 class="footer-title text-white mb-4">LoginBusog</h3>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="./shop.html">About</a></li>
+                <li class="mb-2"><a href="#">See More Recipes</a></li>
+                <li class="mb-2"><a href="#">Submit your Recipe</a></li>
+                <li class="mb-0"><a href="#">Promo Codes</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="footer-col footer-contact mt-5">
+              <h3 class="footer-title text-white mb-4">Contact us</h3>
+              <div class="mb-3"><img class="me-2" src="./images-index/map-pin.svg"><span>Malaybalay, Bukidnon</span></div>
+              <div class="mb-3"><img class="me-2" src="./images-index/mail.svg"><span>0966-932-2538</span></div>
+              <div><img class="me-2" src="./images-index/phone.svg"><span> 0966-932-2538</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-credits text-center mt-5 py-3">
+          <div class="col-12 col-md-6">
+            <div class="footer-copy float-md-none float-lg-start">
+              <p class="mb-0 small">&copy 2023 <a href="#" class="text-decoration-none">LoginBusog</a>. SweetsHorizon <a href="" rel="nofollow" class="text-decoration-none">FJRS</a></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="footer-social clearfix">
+              <ul class="list-unstyled mb-0 float-md-none float-lg-end">
+                <li class="d-inline-block me-2"><a href="#"><img src="./images-index/youtube.svg"></a></li>
+                <li class="d-inline-block me-2"><a href="#"><img src="./images-index/twitter.svg"></a></li>
+                <li class="d-inline-block me-2"><a href="#"><img src="./images-index/instagram.svg"></a></li>
+                <li class="d-inline-block me-2"><a href="#"><img src="./images-index/github.svg"></a></li>
+                <li class="d-inline-block me-2"><a href="#"><img src="./images-index/dribbble.svg"></a></li>
+                <li class="d-inline-block"><a href="#"><img src="./images-index/facebook.svg"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="./js-index/bootstrap.bundle.min.js"></script>
+    <script src="./js-index/splide.min.js"></script>
+    <script src="./js-index/main.js"></script>
+    <script src="//code.tidio.co/qwluvegngluaovzfxg7g7o09kyx6kvtv.js" async></script>
+  </body>
+</html>
